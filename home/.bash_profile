@@ -6,7 +6,7 @@ export PATH="~/.bin:/usr/local/share/python:/usr/local/bin:/opt/local/bin:/Users
 bind "set show-all-if-ambiguous On"
 . ~/my/dotfiles/etc/django_bash_completion.sh
 
-export WORKON_HOME=$HOME/.virtualenvs
+export WORKON_HOME=$BOXEN_DATA_DIR/virturalenvs
 export VIRTUALENVWRAPPER_PYTHON=/opt/boxen/homebrew/bin/python
 source /opt/boxen/homebrew/share/python/virtualenvwrapper.sh
 

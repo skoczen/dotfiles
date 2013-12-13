@@ -1,3 +1,5 @@
 .DS_Store
 *.pyc
 /Textmate/TextMate.pid
+
+.dewey_autocomplete.sh
