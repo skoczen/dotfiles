@@ -1,5 +1,6 @@
 source ~/.profile
 
+export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 export EDITOR='subl -w'
 export PATH="~/.bin:/usr/local/share/python:/usr/local/bin:/opt/local/bin:/Users/skoczen/Library/shellScripts:/usr/local/sbin:.:/Developer/usr/bin:/Developer/usr/sbin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/android/sdk/platform-tools:/usr/local/ec2-api-tools/bin:/usr/local/share/npm/lib/node_modules/less/bin:/usr/local/share/npm/lib/node_modules:/usr/local/share/npm/lib/node_modules/karma/bin:/usr/local/opt/ruby/bin:${PATH}"
 
